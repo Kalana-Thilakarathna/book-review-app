@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+@layer utilities {
+  .text-26-semibold {
+    @apply font-semibold text-[26px] text-black;
+  }
+  .text-15-semibold {
+    @apply font-semibold text-[15px] text-black;
+  }
+  .text-30-bold {
+    @apply text-[30px] font-bold text-black;
+  }
+  .no-result {
+    @apply text-black-100 text-sm font-normal;
+  }
+  .card_grid {
+    @apply grid md:grid-cols-3 sm:grid-cols-2 gap-10;
+  }
+  /* review card */
+  .review-card {
+    @apply bg-white border-[5px] border-black py-6 px-5 rounded-[22px] shadow-200 hover:border-primary transition-all duration-500 hover:shadow-300 hover:bg-primary-100;
+  }
+  .review-card_title {
+    @apply font-medium text-[16px] bg-primary-100 px-4 py-2 rounded-full group-hover:bg-white-100;
+  }
+  .review-card_author {
+    @apply font-semibold text-[16px] text-black-100;
+  }
+  .review-card_desc {
+    @apply font-normal line-clamp-3 text-[16px] my-3 text-black-100 break-all;
+  }
+  .review-card_btn {
+    @apply rounded-full bg-black-200 font-medium text-[16px] text-white px-5 py-3 !important;
+  }
+  .filter-select {
+    @apply border-none text-[16px] text-black font-semibold placeholder:text-black-300 selection:border-none !important;
+  }
+
+  /* review form */
+  .review-form {
+    @apply max-w-2xl mx-auto bg-white my-10 space-y-8 px-6;
+  }
+  .review-form_label {
+    @apply font-bold text-[18px] text-black uppercase;
+  }
+
+  .review-form_input {
+    @apply border-[3px] border-black px-5 py-4 text-[18px] text-black font-semibold rounded-full mt-3 placeholder:text-black-300 !important;
+  }
+
+  .review-form_textarea {
+    @apply border-[3px] border-black p-5 text-[18px] text-black font-semibold rounded-[20px] mt-3 placeholder:text-black-300 !important;
+  }
+
+  .review-form_error {
+    @apply text-red-500 mt-2 ml-5;
+  }
+
+  .review-form_editor {
+    @apply mt-3 border-[3px] border-black text-[18px] text-black font-semibold placeholder:text-black-300 !important;
+  }
+
+  .review-form_btn {
+    @apply bg-primary border-[4px] border-black rounded-full p-5 min-h-[70px] w-48 font-bold text-[18px] hover:bg-secondary shadow-100 transition-all !important;
+  }
+  .review-form_btn-delete {
+    @apply bg-orange-500 border-[4px] border-black rounded-full p-5 min-h-[70px] w-48 font-bold text-[18px] hover:bg-red-600 shadow-100 transition-all !important;
+  }
+
+  /* review skeleton */
+  .view-container {
+    @apply flex justify-end items-center mt-5 fixed bottom-3 right-3;
+  }
+  .view-text {
+    @apply font-medium text-[27px] bg-primary-100 px-4 py-2 rounded-lg capitalize;
+  }
+  .view-author {
+    @apply font-semibold text-[27px] text-black-100;
+  }
+  .view-desc {
+    @apply font-normal text-start line-clamp-3 text-[20px] my-3 text-black-100 break-all;
+  }
+
+  /* utilties */
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+}
