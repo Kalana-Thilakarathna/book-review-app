@@ -16,6 +16,23 @@ This is a Book Review App that allows users to review and rate books. The app is
 - Node.js (v14 or higher)
 - npm (v6 or higher)
 
+### Project Structure
+```
+book-review-app/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.js
+│   ├── index.js
+│   └── styles/
+├── package.json
+├── README.md
+└── .gitignore
+```
+
 ### Installation
 1. Clone the repository:
     ```bash
