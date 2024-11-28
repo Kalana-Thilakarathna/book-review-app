@@ -55,14 +55,11 @@ book-review-app/
 
 ### Running the App
 1. Start the development server:
-   ##front-end
+   `front-end & back-end`
     ```bash
     npm run dev
     ```
-    ##back-end
-    ```bash
-    npm run dev
-    ```
+  
 3. Open your browser and navigate to `http://localhost:3000`
 
 ### Building for Production
