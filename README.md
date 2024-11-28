@@ -4,10 +4,11 @@
 This is a Book Review App that allows users to review and rate books. The app is built using modern web technologies and provides a user-friendly interface for book enthusiasts.
 
 ## Features
-- User authentication and authorization
-- Add, edit, and delete book reviews
-- Rate books
-- Search for books
+- Create Reviews: Users can create new book reviews.
+- Read Reviews: Users can view a list of all book reviews and individual review details.
+- Update Reviews: Users can edit existing book reviews.
+- Delete Reviews: Users can delete book reviews.
+- Rating System: Users can rate books using a star rating system.
 - Responsive design
 
 ## Setup
@@ -20,22 +21,41 @@ This is a Book Review App that allows users to review and rate books. The app is
 ```
 book-review-app/
 ├── backend/
+│   ├── .env
+│   ├── .gitignore
 │   ├── models/
-│   ├── routes/
-│   ├── server.js
-│   └── config/
-├── frontend/
-│   ├── public/
-│   │   ├── index.html
-│   │   └── favicon.ico
-│   ├── src/
-│   │   ├── components/
-│   │   ├── assets/
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── styles/
+│   │   └── Review.js
 │   ├── package.json
-│   └── .gitignore
+│   ├── routes/
+│   │   └── reviewRoutes.js
+│   └── server.js
+├── frontend/
+│   ├── .gitignore
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── public/
+│   ├── README.md
+│   ├── src/
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── assets/
+│   │   ├── components/
+│   │   │   ├── Create.jsx
+│   │   │   ├── Edit_review.jsx
+│   │   │   ├── layout/
+│   │   │   │   ├── Footer.jsx
+│   │   │   │   ├── Header.jsx
+│   │   │   │   └── Layout.jsx
+│   │   │   ├── Rating.jsx
+│   │   │   ├── Reaview_List.jsx
+│   │   │   ├── Review_card.jsx
+│   │   │   └── Review.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── tailwind.config.js
+│   └── vite.config.js
 └── README.md
 ```
 ### Installation
