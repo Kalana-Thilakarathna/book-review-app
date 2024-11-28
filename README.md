@@ -69,7 +69,6 @@ book-review-app/
 1. Start the development server: `backend & frontend`
     ```bash
     npm run dev
-    npm run dev
     ```
   
 3. Open your browser and navigate to `http://localhost:3000`
