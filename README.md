@@ -55,11 +55,11 @@ book-review-app/
 
 ### Running the App
 1. Start the development server:
-   -front-end
+   ##front-end
     ```bash
     npm run dev
     ```
-    -back-end
+    ##back-end
     ```bash
     npm run dev
     ```
