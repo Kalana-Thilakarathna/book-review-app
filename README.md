@@ -30,7 +30,7 @@ book-review-app/
 │   │   └── favicon.ico
 │   ├── src/
 │   │   ├── components/
-│   │   ├── pages/
+│   │   ├── assets/
 │   │   ├── App.js
 │   │   ├── index.js
 │   │   └── styles/
