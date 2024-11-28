@@ -104,8 +104,4 @@ book-review-app/
 - Ensure you have the latest version of Node.js and npm installed.
 - Connection string will be attached to the email.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
-For any questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
