@@ -19,18 +19,24 @@ This is a Book Review App that allows users to review and rate books. The app is
 ### Project Structure
 ```
 book-review-app/
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── App.js
-│   ├── index.js
-│   └── styles/
-├── package.json
-├── README.md
-└── .gitignore
+├── backend/
+│   ├── models/
+│   ├── routes/
+│   ├── server.js
+│   └── config/
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── styles/
+│   ├── package.json
+│   └── .gitignore
+└── README.md
 ```
 
 ### Installation
