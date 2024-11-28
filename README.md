@@ -38,25 +38,37 @@ book-review-app/
 │   └── .gitignore
 └── README.md
 ```
-
 ### Installation
+
+#### Backend
 1. Clone the repository:
     ```bash
     git clone https://github.com/your-username/book-review-app.git
     ```
-2. Navigate to the project directory:
+2. Navigate to the backend directory:
     ```bash
-    cd book-review-app
+    cd book-review-app/backend
     ```
-3. Install the dependencies:
+3. Install the backend dependencies:
+    ```bash
+    npm install
+    ```
+4. Create a `.env` file in the `backend` directory and add your environment variables.
+
+#### Frontend
+1. Navigate to the frontend directory:
+    ```bash
+    cd ../frontend
+    ```
+2. Install the frontend dependencies:
     ```bash
     npm install
     ```
 
 ### Running the App
-1. Start the development server:
+1. Start the development server: `backend & frontend`
     ```bash
-    npm start
+    npm run dev
     ```
 2. Open your browser and navigate to `http://localhost:3000`
 
